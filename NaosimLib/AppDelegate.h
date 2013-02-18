@@ -1,0 +1,19 @@
+//
+//  AppDelegate.h
+//  NaosimLib
+//
+//  Created by 藤田 直 on 13/02/19.
+//  Copyright (c) 2013年 Naosim. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class ViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ViewController *viewController;
+
+@end
