@@ -23,6 +23,8 @@
 		44CA9D7916D27DE000157320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9D5416D27DE000157320 /* Foundation.framework */; };
 		44CA9D8116D27DE000157320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CA9D7F16D27DE000157320 /* InfoPlist.strings */; };
 		44CA9D8416D27DE000157320 /* NaosimLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8316D27DE000157320 /* NaosimLibTests.m */; };
+		44CA9D8F16D27DF800157320 /* RectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8E16D27DF800157320 /* RectBuilder.m */; };
+		44CA9D9016D27DF800157320 /* RectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8E16D27DF800157320 /* RectBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		44CA9D8016D27DE000157320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44CA9D8216D27DE000157320 /* NaosimLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaosimLibTests.h; sourceTree = "<group>"; };
 		44CA9D8316D27DE000157320 /* NaosimLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaosimLibTests.m; sourceTree = "<group>"; };
+		44CA9D8D16D27DF800157320 /* RectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectBuilder.h; sourceTree = "<group>"; };
+		44CA9D8E16D27DF800157320 /* RectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				44CA9D6B16D27DE000157320 /* ViewController.m */,
 				44CA9D6D16D27DE000157320 /* ViewController.xib */,
 				44CA9D5916D27DE000157320 /* Supporting Files */,
+				44CA9D8D16D27DF800157320 /* RectBuilder.h */,
+				44CA9D8E16D27DF800157320 /* RectBuilder.m */,
 			);
 			path = NaosimLib;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				44CA9D5F16D27DE000157320 /* main.m in Sources */,
 				44CA9D6316D27DE000157320 /* AppDelegate.m in Sources */,
 				44CA9D6C16D27DE000157320 /* ViewController.m in Sources */,
+				44CA9D8F16D27DF800157320 /* RectBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CA9D8416D27DE000157320 /* NaosimLibTests.m in Sources */,
+				44CA9D9016D27DF800157320 /* RectBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
