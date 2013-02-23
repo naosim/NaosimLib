@@ -8,8 +8,19 @@
 
 #import "RectBuilder.h"
 @implementation RectBuilder
+
+- (id)initWithRect:(CGRect)rect {
+    self = [super init];
+    if(self) {
+        _x = rect.origin.x;
+        _y = rect.origin.y;
+        _width = rect.size.width;
+        _height = rect.size.height;
+    }
+    return self;
+}
 + (RectBuilder*)builderWithRect:(CGRect)rect {
-    return [[[[[RectBuilder new] x:rect.origin.x] y:rect.origin.y] width:rect.size.width] height:rect.size.height];
+    return [[RectBuilder alloc] initWithRect:rect];
 }
 
 - (RectBuilder*)x:(CGFloat)x {
