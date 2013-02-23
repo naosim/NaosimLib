@@ -23,6 +23,10 @@
     return [[RectBuilder alloc] initWithRect:rect];
 }
 
++ (RectBuilder*)builderWithView:(UIView*)view {
+    return [RectBuilder builderWithRect:view.frame];
+}
+
 - (RectBuilder*)x:(CGFloat)x {
     _x = x;
     return self;
@@ -44,6 +48,17 @@
     return self;
 }
 
+- (RectBuilder*)point:(CGPoint)point {
+    _x = point.x;
+    _y = point.y;
+    return self;
+}
+- (RectBuilder*)size:(CGSize)size {
+    _width = size.width;
+    _height = size.height;
+    return self;
+}
+
 - (RectBuilder*)xAdd:(CGFloat)value {
     _x += value;
     return self;
@@ -61,6 +76,18 @@
 
 - (RectBuilder*)heightAdd:(CGFloat)value {
     _height += value;
+    return self;
+}
+
+- (RectBuilder*)pointAdd:(CGPoint)point {
+    _x += point.x;
+    _y += point.y;
+    return self;
+}
+
+- (RectBuilder*)sizeAdd:(CGSize)size {
+    _width += size.width;
+    _height += size.height;
     return self;
 }
 

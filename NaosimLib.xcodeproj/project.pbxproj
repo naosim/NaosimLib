@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44455FF816D86BF900581607 /* LocalStringSetuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44455FF716D86BF900581607 /* LocalStringSetuper.m */; };
+		44455FF916D86BF900581607 /* LocalStringSetuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44455FF716D86BF900581607 /* LocalStringSetuper.m */; };
 		44CA9D5316D27DE000157320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9D5216D27DE000157320 /* UIKit.framework */; };
 		44CA9D5516D27DE000157320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9D5416D27DE000157320 /* Foundation.framework */; };
 		44CA9D5716D27DE000157320 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9D5616D27DE000157320 /* CoreGraphics.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44455FF616D86BF900581607 /* LocalStringSetuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStringSetuper.h; sourceTree = "<group>"; };
+		44455FF716D86BF900581607 /* LocalStringSetuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStringSetuper.m; sourceTree = "<group>"; };
 		44CA9D4F16D27DE000157320 /* NaosimLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaosimLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA9D5216D27DE000157320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44CA9D5416D27DE000157320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +133,8 @@
 				44CA9D5916D27DE000157320 /* Supporting Files */,
 				44CA9D8D16D27DF800157320 /* RectBuilder.h */,
 				44CA9D8E16D27DF800157320 /* RectBuilder.m */,
+				44455FF616D86BF900581607 /* LocalStringSetuper.h */,
+				44455FF716D86BF900581607 /* LocalStringSetuper.m */,
 			);
 			path = NaosimLib;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				44CA9D6316D27DE000157320 /* AppDelegate.m in Sources */,
 				44CA9D6C16D27DE000157320 /* ViewController.m in Sources */,
 				44CA9D8F16D27DF800157320 /* RectBuilder.m in Sources */,
+				44455FF816D86BF900581607 /* LocalStringSetuper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +296,7 @@
 			files = (
 				44CA9D8416D27DE000157320 /* NaosimLibTests.m in Sources */,
 				44CA9D9016D27DF800157320 /* RectBuilder.m in Sources */,
+				44455FF916D86BF900581607 /* LocalStringSetuper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +469,7 @@
 				44CA9D8916D27DE000157320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CA9D8A16D27DE000157320 /* Build configuration list for PBXNativeTarget "NaosimLibTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				44CA9D8C16D27DE000157320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

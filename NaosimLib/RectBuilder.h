@@ -20,17 +20,25 @@
 @property (nonatomic, assign, readonly)CGFloat height;
 
 + (RectBuilder*)builderWithRect:(CGRect)rect;
++ (RectBuilder*)builderWithView:(UIView*)view;
 
+// set
 - (RectBuilder*)x:(CGFloat)x;
 - (RectBuilder*)y:(CGFloat)y;
 - (RectBuilder*)width:(CGFloat)width;
 - (RectBuilder*)height:(CGFloat)height;
+- (RectBuilder*)point:(CGPoint)point;
+- (RectBuilder*)size:(CGSize)size;
 
+// add
 - (RectBuilder*)xAdd:(CGFloat)value;
 - (RectBuilder*)yAdd:(CGFloat)value;
 - (RectBuilder*)widthAdd:(CGFloat)value;
 - (RectBuilder*)heightAdd:(CGFloat)value;
+- (RectBuilder*)pointAdd:(CGPoint)point;
+- (RectBuilder*)sizeAdd:(CGSize)size;
 
+// by
 - (RectBuilder*)xBy:(CGFloat)rate;
 - (RectBuilder*)yBy:(CGFloat)rate;
 - (RectBuilder*)widthBy:(CGFloat)rate;
