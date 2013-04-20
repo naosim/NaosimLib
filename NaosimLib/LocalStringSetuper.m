@@ -22,12 +22,14 @@
     }
 }
 
+/// UILabelを多言語対応
 - (void)setupLabel:(UILabel*)label {
     if([self isLocalString:label.text]) {
         label.text = NSLocalizedString(label.text, @"");
     }
 }
 
+/// UISegmentedControlを多言語対応
 - (void)setupWithSegmentedControl:(UISegmentedControl*)c {
     for(int i = 0; i < [c numberOfSegments]; i++) {
         NSString* title = [c titleForSegmentAtIndex:i];
