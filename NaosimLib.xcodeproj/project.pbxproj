@@ -27,6 +27,8 @@
 		44CA9D8416D27DE000157320 /* NaosimLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8316D27DE000157320 /* NaosimLibTests.m */; };
 		44CA9D8F16D27DF800157320 /* RectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8E16D27DF800157320 /* RectBuilder.m */; };
 		44CA9D9016D27DF800157320 /* RectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D8E16D27DF800157320 /* RectBuilder.m */; };
+		44EE99E2172247D7004DAF62 /* NSUserDefaultsMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE99E1172247D7004DAF62 /* NSUserDefaultsMock.m */; };
+		44EE99E3172247D7004DAF62 /* NSUserDefaultsMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE99E1172247D7004DAF62 /* NSUserDefaultsMock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		44CA9D8316D27DE000157320 /* NaosimLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaosimLibTests.m; sourceTree = "<group>"; };
 		44CA9D8D16D27DF800157320 /* RectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectBuilder.h; sourceTree = "<group>"; };
 		44CA9D8E16D27DF800157320 /* RectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectBuilder.m; sourceTree = "<group>"; };
+		44EE99E0172247D7004DAF62 /* NSUserDefaultsMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsMock.h; sourceTree = "<group>"; };
+		44EE99E1172247D7004DAF62 /* NSUserDefaultsMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsMock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 				44CA9D8E16D27DF800157320 /* RectBuilder.m */,
 				44455FF616D86BF900581607 /* LocalStringSetuper.h */,
 				44455FF716D86BF900581607 /* LocalStringSetuper.m */,
+				44EE99E0172247D7004DAF62 /* NSUserDefaultsMock.h */,
+				44EE99E1172247D7004DAF62 /* NSUserDefaultsMock.m */,
 			);
 			path = NaosimLib;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				44CA9D6C16D27DE000157320 /* ViewController.m in Sources */,
 				44CA9D8F16D27DF800157320 /* RectBuilder.m in Sources */,
 				44455FF816D86BF900581607 /* LocalStringSetuper.m in Sources */,
+				44EE99E2172247D7004DAF62 /* NSUserDefaultsMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +304,7 @@
 				44CA9D8416D27DE000157320 /* NaosimLibTests.m in Sources */,
 				44CA9D9016D27DF800157320 /* RectBuilder.m in Sources */,
 				44455FF916D86BF900581607 /* LocalStringSetuper.m in Sources */,
+				44EE99E3172247D7004DAF62 /* NSUserDefaultsMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
